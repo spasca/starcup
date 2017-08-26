@@ -25,7 +25,7 @@ public class CampoBean {
 	private static final String deleteOnePrepQuery = 
 			"DELETE FROM Campo WHERE idcampo = ?";
 	
-	// For GET /campo/{idcampo} aa
+	// For GET /campo/{idcampo} aadd
 	public Campo getOne(long idcampo) {
 		Connection connection;
 		PreparedStatement preparedStatement;
