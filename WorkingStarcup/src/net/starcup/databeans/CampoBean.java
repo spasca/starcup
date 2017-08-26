@@ -20,12 +20,12 @@ public class CampoBean {
 	
 	private static final String insertOnePrepQuery = 
 			"INSERT INTO Campo (Denominazione, Foto, GPSLat, GPSLon) VALUES"
-							+ "(?, ?, ?, ?)";
+							+ "(?, ?, ?, ?)";  
 	
 	private static final String deleteOnePrepQuery = 
 			"DELETE FROM Campo WHERE idcampo = ?";
 	
-	// For GET /campo/{idcampo} 
+	// For GET /campo/{idcampo} aa
 	public Campo getOne(long idcampo) {
 		Connection connection;
 		PreparedStatement preparedStatement;
